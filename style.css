@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: #08111f;
+    color: #edf4ff;
+    font-family: Arial , sans-serif;
+    min-width: 100vh;
+}
+
+.top-header
+{
+    min-height: 82px;
+    display : flex;
+    align-items: center;
+    padding: 15px 4%;
+    background-color: #111f34;
+    color: white;
+    border-bottom: 1px solid #2a3d59;
+    gap: 20px;
+}
+
+.banner
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo
+{
+    background: #287ee8;
+    border-radius : 10px;
+    padding: 12px 16px;
+    font-size: 23px;
+    font-weight: bold;
+
+}
+
+.banner h1
+{
+    color: #54a5ff;
+    letter-spacing: 3px;
+}
+
+.banner p
+{
+    color: #91a8c5;
+    font-size: 9px;
+}
+
+nav
+{
+    display: flex;
+    gap: 20px;
+}
+
+.nav a
+{
+    color: #aebed3;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+nav a:hover
+{
+    color: #54a5ff;
+}
+
+.System-time
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #39d6a0;
+    font-size: 11px;
+}
+
+.online-dot
+{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #39d6a0;
+}
+
+#clock
+{
+    color: white;
+    margin-left: 10px;
+    font-family: monospace;
+}
+
+button
+{
+    background: #287ee8;
+    border: 0;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover
+{
+    background: #1765c3;
+}
+
+button,input,select
+{
+    font-family: inherit;
+}
+
+.page
+{
+    padding: 35px 5%;
+}
+
+.page p
+{
+    color: #91a8c5;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.card
+{
+    background: #142541;
+    border: 1px solid #264061;
+    border-radius: 12px;
+
+}
+
+.card
+{
+    padding: 20px;
+    transition: 0.2s;
+}
+
+.card:hover
+{
+    border-color: #54a5ff;
+    transform: translateY(-10px);
+}
+
+.card span
+{
+    color: #aebed3;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.card h2
+{
+    color: #1765c3;
+    font-size: 30px;
+    margin: 14px 0 8px;
+}
+
+.card p
+{
+    color: #91a8c5;
+    font-size: 13px;
+
+}

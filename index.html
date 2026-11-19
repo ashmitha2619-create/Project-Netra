@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netra Robot Monitoring System</title>
+    <link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+    <header class = "top-header">
+    <div class="banner">
+        <div class="logo">
+            N
+        </div>
+        <div>
+            <h1>NETRA</h1>
+            <P>ROBOT MISSION CONTROL</P>
+        </div>
+
+    </div>
+
+    <nav class="nav bar">
+        <a href = "#">Dashboard</a>
+        <a href = "#">Telemetry</a>
+        <a href = "#">Fleet</a>
+        <a href = "#">Alerts</a>
+    </nav>
+
+    <div class = "System-time">
+        <span class="online-dot"></span>
+        <span>SYSTEM ONLINE</span>
+        <strong id="clock">--:--:-- </strong>
+    </div>
+
+    <div class = "Dispatch-button">
+        <button>+DISPATCH MISSION</button>
+    </div>
+    </header>
+    <script src = "script.js"></script>
+
+    <main class="page">
+        <section class="grid">
+            <article class="card">
+                <span>ROVERS ONLINE</span>
+                <h2 id="online-count">6/6</h1>
+                <p>Active Rover Units</p>
+            </article>
+
+            <arcitle class="card">
+                <span>AVERAGE BATTERY</span>
+                <h2 id="average-battery">76%</h2>
+                <p>Fleet battery level</p>
+            </arcitle>
+
+            <article class="card">
+                <span>OPEN ALERTS</span>
+                <h2 id="alert-count">0</h2>
+                <p>Requires attention</p>
+            </article>
+
+            <article class="card">
+                <span>DISTANCE TODAY</span>
+                <h2 id="distance">51.3 km</h2>
+                <p>Total simulated distance</p>
+            </article>
+        </section>
+    </main>
+
+</body>
+
+</html>
